@@ -12,7 +12,7 @@ const Home = () => {
 			<View style={styles.image}>
 				<View style={styles.logo}>
 					<View style={styles.logoContent}>
-						<Image source={require("../../assets/icon/D.png")} />
+						<Image source={require("../../../assets/icon/D.png")} />
 					</View>
 				</View>
 			</View>
@@ -20,7 +20,7 @@ const Home = () => {
 				<View style={styles.image2}>
 					<View style={styles.logo2}>
 						<View style={styles.logoContent}>
-							<Image source={require("../../assets/icon/Box.png")} />
+							<Image source={require("../../../assets/icon/Box.png")} />
 						</View>
 					</View>
 				</View>
