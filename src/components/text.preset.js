@@ -37,6 +37,11 @@ export const presets = {
 	h3: {
 		...SUBTITLE,
 	},
+	h5: {
+		...BASE,
+		color: colors.green,
+		fontWeight: "500",
+	},
 	p: {
 		...BASE,
 		color: colors.gray,

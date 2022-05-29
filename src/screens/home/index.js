@@ -6,7 +6,7 @@ import { styles } from "./styles";
 
 const alret = () => Alert.alert("", "You clicked dismiss");
 
-const Home = () => {
+const Home = ({ navigation }) => {
 	return (
 		<View style={styles.container}>
 			<View style={styles.image}>
@@ -36,7 +36,7 @@ const Home = () => {
 
 				<Pressable
 					style={styles.button1}
-					onPress={() => console.log("clicked")}
+					onPress={() => navigation.push("Product")}
 				>
 					<Text preset="button" style={{ color: colors.white }}>
 						Order Now
