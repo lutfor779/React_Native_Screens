@@ -4,9 +4,17 @@ import Text from "../../components/text";
 import { colors } from "../../theme/colors";
 import { styles } from "./styles";
 
-const alret = (text) => Alert.alert("", text);
+const Product = ({ navigation }) => {
+	const alret = (text) =>
+		Alert.alert("", text, [
+			{
+				text: "Go back",
+				onPress: () => navigation.goBack(),
+				style: "cancel",
+			},
+			{ text: "OK" },
+		]);
 
-const Product = () => {
 	return (
 		<>
 			<View style={styles.container}>
